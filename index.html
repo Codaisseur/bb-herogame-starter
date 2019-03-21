@@ -2,25 +2,28 @@
 <head>
     <meta charset="utf-8">
     <title>Mocha Tests</title>
-    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+    <link href="lib/mocha.css" rel="stylesheet" />
 </head>
 <body>
 
 
-  <!-- YOUR HTML HERE -->
+  <!-- 👍 YOUR HTML HERE 👍 -->
 
 
 
   <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
   <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
-  <div id="mocha"></div>
 
-  <script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
-  <script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sinon@3/pkg/sinon.js"></script>
+  <div id="mocha">
+  <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+  </div>
+
+  <script src="lib/chai.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
   <script>mocha.setup('bdd')</script>
   <script src="YOUR_JAVASCRIPT_HERE.js"></script>
-  <script src="game_logic.test.js"></script>
+  <script src="lib/game_logic.test.js"></script>
 
 </body>
 </html>

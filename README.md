@@ -37,7 +37,7 @@ Follow the instructions in section to create the hero object.
 **Press the 'Run the tests' button to run the automated tests**
 Follow the instructions to implment `resting`, `picking up items` and `equipping a weapon` game logic. These are all functions that will manipulate your hero object. Each of these function will need some user interface.
 
-**note:** You could implement this game logic in many other ways. But in order for the tests to guide you the instructions are very specific.
+**note:** You could implement this game logic in *many* other ways. But in order for the tests to guide you the instructions are very specific.
 
 ## Section 3. CSS
 
@@ -50,7 +50,7 @@ Follow the instructions to implment `resting`, `picking up items` and `equipping
 
 - Create a form that allow users to change the name of their hero.
 
-- Call `displayStats` when some data of the hero has change to update the page.
+- Call `displayStats` when some data of the hero has changed to update the page.
 
 - Implement fighting an enemy. (how you do it is up to you!)
 
