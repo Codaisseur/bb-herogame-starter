@@ -43,7 +43,7 @@ Follow the instructions to implment `resting`, `picking up items` and `equipping
 
 - Link an external stylesheet and make all the pictures the same size.
 
-## Section 4 - Bonus: Show me what you got
+## Section 4 - Show me what you got
 
 
 - Write `displayStats` function that writes your hero's name, health, weapontype, weapon damage to the page. Call it at the end of your script
