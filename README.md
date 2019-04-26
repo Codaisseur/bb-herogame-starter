@@ -10,6 +10,7 @@ Don't discuss the homework in slack
 - Download the starter files
 - Make a local git repo and use it to track your work
 - When you're done add a remote and push to your github
+- The link to your repo should look something like: git@github.com:YOURGITHUBUSERNAME/YOURREPONAME.git
 - **Send the link to your repo to teachers@codaisseur.com before Saturday 22:00**
 
 Expectations:
