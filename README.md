@@ -21,12 +21,27 @@ Expectations:
 - I expect some people with programming experience before this bootcamp to able to finish the whole assignment within the time-limit.
 
 Tips:
-- Use readest, stackoverflow and documentation
+- Use readest, stackoverflow and documentation, w3schools had easy to understand examples.
 - Check the tests on the page for hints
 - Write the code step by step and use console.log() to check yourself  
-- If you can't get a certain test to pass try a different one. Don't get stuck on a single thing for a whole day.  
+- If you can't get a certain test to pass try a different one. **Don't get stuck on a single thing for a whole day.**  
 - You get no points for Extra CSS that is not in the assignment (except the fuzzy feeling in your own brain)
-- If you feel you had a bad result write a reflection on your way of working in the readme of your project
+- If you feel you had a bad result write a reflection on your way of working in the readme of your project.
+
+## What are we building?
+
+Minimal game:
+
+- We are building (the start) of a game
+- You play as a hero and you have some "stats" like health and inventory
+- By clicking different pictures the stats of the hero get changed
+
+Additional features:
+
+- A player can choose their own name
+- We want to display the stats to the player so she knows what happened
+- When some stats change we want to show the updated stats
+- Make it possible to fight enemies
 
 ## Section 1. Creating the hero object
 
@@ -46,10 +61,9 @@ Follow the instructions to implment `resting`, `picking up items` and `equipping
 
 ## Section 4 - Show me what you got
 
+- Allow people to change the name of their hero, you can use window.prompt or use an input element. Be careful using a form because using a form might refresh the page.
 
 - Write `displayStats` function that writes your hero's name, health, weapontype, weapon damage to the page. Call it at the end of your script
-
-- Create a form that allow users to change the name of their hero.
 
 - Call `displayStats` when some data of the hero has changed to update the page.
 
