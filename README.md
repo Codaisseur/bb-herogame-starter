@@ -30,9 +30,10 @@ Tips:
 
 ## What are we building?
 
+We are building (the start) of a game
+
 Minimal game:
 
-- We are building (the start) of a game
 - You play as a hero and you have some "stats" like health and inventory
 - By clicking different pictures the stats of the hero get changed
 
